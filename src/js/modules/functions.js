@@ -72,7 +72,7 @@ export function casejs() {
 		$("#quick").on("click", function () {
 			$(this).toggleClass("active");
 		});
-		$("#open").on("click", function () {
+		$("#opencase").on("click", function () {
 			$(".cases").hide();
 			$(".carousel").fadeIn();
 			start();
